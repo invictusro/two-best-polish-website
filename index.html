@@ -1,15 +1,11 @@
 <!doctype html>
-<!--
-  TWO BEST POLISH — a static Romanian detailing studio homepage.
-  Visual world: clean white studio, acid-lime precision marks, real workshop photography.
--->
 <html lang="ro">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#ffffff" />
-    <meta name="description" content="Two Best Polish — polish auto profesional, detailing exterior și interior, protecție ceramică în România." />
-    <title>Two Best Polish — Polish auto profesional</title>
+    <meta name="theme-color" content="#f7f7f3" />
+    <meta name="description" content="Two Best Polish — detailing auto profesional, corecție lac și protecție ceramică în Bughea de Jos." />
+    <title>Two Best Polish — Detailing fără compromis</title>
     <link rel="canonical" href="https://site.invilabs.ro/twobest/" />
     <script>
       if (window.location.hostname === "site.invilabs.ro") {
@@ -21,10 +17,8 @@
     <link rel="icon" type="image/png" href="assets/two-best-polish-logo-v2.png?v=20260820-2" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,700;1,800&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css?v=20260820-1" />
-    <link rel="stylesheet" href="map.css?v=20260820-1" />
-    <link rel="stylesheet" href="light-theme.css?v=20260820-2" />
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,500;0,600;0,700;0,800;0,900;1,700;1,800&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="rethink.css?v=20260820-1" />
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -32,108 +26,86 @@
         "name": "Two Best Polish",
         "url": "https://site.invilabs.ro/twobest/",
         "telephone": "+40747401472",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "72H4+MF",
-          "addressLocality": "Bughea de Jos",
-          "postalCode": "115100",
-          "addressCountry": "RO"
-        },
-        "sameAs": ["https://www.instagram.com/tb.polish/", "https://www.tiktok.com/@tbpolish"]
+        "address": { "@type": "PostalAddress", "streetAddress": "72H4+MF", "addressLocality": "Bughea de Jos", "postalCode": "115100", "addressCountry": "RO" },
+        "sameAs": ["https://www.facebook.com/profile.php?id=100077162678600", "https://www.instagram.com/tb.polish/", "https://www.tiktok.com/@tbpolish"]
       }
     </script>
   </head>
   <body>
     <a class="skip-link" href="#continut">Sari la conținut</a>
-    <div class="cursor-glow" aria-hidden="true"></div>
-
-    <header class="header" data-header>
+    <header class="site-header">
       <a class="brand" href="#acasa" aria-label="Two Best Polish — acasă">
-        <img src="assets/two-best-polish-logo-v2.png?v=20260820-2" width="66" height="66" alt="Logo Two Best Polish" />
+        <img src="assets/two-best-polish-logo-v2.png?v=20260820-2" width="58" height="58" alt="Logo Two Best Polish" />
         <span><b>TWO BEST</b><i>POLISH</i></span>
       </a>
-      <button class="menu-button" type="button" aria-expanded="false" aria-controls="nav" data-menu-button><span>MENIU</span><i></i><i></i></button>
-      <nav id="nav" class="nav" aria-label="Navigație principală" data-nav>
-        <a href="#studio">Studio</a><a href="#servicii">Servicii</a><a href="#proces">Proces</a><a href="#contact">Contact</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav"><span>MENIU</span><i></i><i></i></button>
+      <nav id="nav" class="site-nav" aria-label="Navigație principală">
+        <a href="#lucrari">Lucrări</a><a href="#servicii">Servicii</a><a href="#metoda">Metodă</a><a href="#contact">Contact</a>
       </nav>
-      <a class="header-cta" href="tel:+40747401472"><span>PROGRAMARE</span><b>0747 401 472</b></a>
+      <a class="book-link" href="tel:+40747401472"><span>PROGRAMARE</span><b>0747 401 472</b><em>↗</em></a>
     </header>
 
     <main id="continut">
       <section class="hero" id="acasa" aria-labelledby="hero-title">
-        <img class="hero-image" src="assets/mercedes-coupe-front.jpg" alt="Mercedes coupé negru cu finisaj lucios, fotografiat la Two Best Polish" width="2048" height="1592" fetchpriority="high" />
-        <div class="hero-wash"></div>
-        <div class="hero-grid" aria-hidden="true"></div>
-        <div class="hero-copy" data-reveal>
-          <p class="eyebrow"><span></span> POLISH AUTO PROFESIONAL</p>
-          <h1 id="hero-title">FINISAJUL<br /><em>CARE CONTEAZĂ.</em></h1>
-          <p class="hero-lede">Corecție, protecție și îngrijire atentă pentru mașini care merită să arate impecabil.</p>
-          <div class="hero-actions"><a class="button button--lime" href="tel:+40747401472">PROGRAMEAZĂ-TE <b>↗</b></a><a class="text-link" href="#servicii">VEZI SERVICIILE <b>↓</b></a></div>
+        <div class="hero-copy">
+          <p class="overline"><span></span> DETAILING AUTO · BUGHEA DE JOS</p>
+          <h1 id="hero-title">LĂSĂM<br />LUMINA SĂ<br /><em>VORBEASCĂ.</em></h1>
+          <p class="hero-text">Corecție de lac, protecție și detalii lucrate cu răbdare. Pentru mașini care merită să fie privite din nou.</p>
+          <div class="hero-actions"><a class="button button--lime" href="tel:+40747401472">PROGRAMEAZĂ-TE <b>↗</b></a><a class="arrow-link" href="#lucrari">VEZI LUCRĂRILE <b>↓</b></a></div>
         </div>
-        <div class="hero-spec" data-reveal><span>01 / 04</span><i></i><b>CONTROLUL<br />DETALIILOR</b></div>
-        <a class="hero-scroll" href="#studio">DERULEAZĂ <span></span></a>
+        <figure class="hero-photo"><img src="assets/mercedes-coupe-front-enhanced.jpg" alt="Mercedes coupé negru cu finisaj lucios, pregătit la Two Best Polish" width="1423" height="1105" fetchpriority="high" /><figcaption><span>PROIECT SELECTAT</span><b>01 / BLACK<br />COUPÉ</b></figcaption></figure>
+        <div class="hero-index" aria-hidden="true"><span>01</span><i></i><span>06</span></div>
+        <p class="hero-aside">POLISH AUTO<br />FĂRĂ SCURTĂTURI</p>
       </section>
 
-      <section class="intro section" id="studio" aria-labelledby="intro-title">
-        <div class="intro-mark" aria-hidden="true">TB<span>•</span>POLISH</div>
-        <div class="section-label" data-reveal><span>01</span><p>STUDIO / STANDARD</p></div>
-        <div class="intro-copy" data-reveal>
-          <h2 id="intro-title">NU E DOAR<br />DESPRE <em>LUCIU.</em></h2>
-          <p>Este despre felul în care vopseaua răspunde la lumină, despre suprafețe curate până în cele mai mici zone și despre protecție aleasă corect.</p>
-          <p>La Two Best Polish, fiecare etapă este făcută cu un singur scop: mașina ta să arate mai bine și să fie mai ușor de păstrat așa.</p>
+      <section class="intro" aria-labelledby="intro-title">
+        <div class="section-kicker"><span>01</span><p>STUDIO / STANDARD</p></div>
+        <div class="intro-copy"><h2 id="intro-title">NU VINDEM<br /><em>STRĂLUCIRE.</em></h2><p>Construim un finisaj care arată bine în lumină, dar rezistă și dincolo de primul selfie. De la pregătire până la ultimul control al suprafeței, lucrăm metodic și fără grabă.</p><a class="arrow-link" href="#metoda">CUM LUCRĂM <b>↓</b></a></div>
+        <figure class="intro-photo"><img src="assets/bmw-x3-rear-enhanced.jpg" alt="Detaliu lucios pe partea din spate a unui BMW SUV" width="1086" height="1448" loading="lazy" /><figcaption>REFLEXIILE NU<br />MINT NICIODATĂ.</figcaption></figure>
+      </section>
+
+      <section class="marquee" aria-label="Servicii cheie"><div><span>CORECȚIE LAC</span><i>✦</i><span>PROTECȚIE CERAMICĂ</span><i>✦</i><span>DETAILING EXTERIOR</span><i>✦</i><span>INTERIOR CURAT</span><i>✦</i></div></section>
+
+      <section class="portfolio" id="lucrari" aria-labelledby="portfolio-title">
+        <div class="portfolio-heading"><div class="section-kicker"><span>02</span><p>PROIECTE SELECTATE</p></div><h2 id="portfolio-title">MAȘINI CARE<br />NU AU NEVOIE<br />DE <em>FILTRU.</em></h2><p>O selecție din lucrările recente. Fotografii reale, ajustate editorial pentru a arăta cât de clar poate răspunde vopseaua la lumină.</p></div>
+        <div class="gallery">
+          <figure class="gallery-card gallery-card--wide"><img src="assets/mercedes-coupe-side-enhanced.jpg" alt="Profil lateral al unui Mercedes coupé negru, după detailing" width="1086" height="1448" loading="lazy" /><figcaption><span>01 / FULL EXTERIOR</span><b>BLACK<br />COUPÉ</b></figcaption></figure>
+          <figure class="gallery-card gallery-card--tall"><img src="assets/kodiaq-front-enhanced.jpg" alt="SUV albastru cu finisaj lucios în atelierul Two Best Polish" width="1086" height="1448" loading="lazy" /><figcaption><span>02 / FINISH</span><b>BLUE<br />SUV</b></figcaption></figure>
+          <figure class="gallery-card gallery-card--detail"><img src="assets/kodiaq-side-enhanced.jpg" alt="Reflexii în panoul lateral al unui SUV albastru după detailing" width="1086" height="1448" loading="lazy" /><figcaption><span>03 / REFLECTION STUDY</span><b>PAINT<br />DEPTH</b></figcaption></figure>
+          <figure class="gallery-card gallery-card--small"><img src="assets/kodiaq-rear-enhanced.jpg" alt="Detaliu de stop și vopsea lucioasă pe un SUV albastru" width="1086" height="1448" loading="lazy" /><figcaption><span>04 / DETAIL</span><b>CLEAR<br />COAT</b></figcaption></figure>
+          <a class="gallery-note" href="https://www.facebook.com/profile.php?id=100077162678600" target="_blank" rel="noreferrer"><span>VEZI MAI MULTE</span><b>PORTOFOLIU<br />REAL PE<br /><em>FACEBOOK</em> ↗</b></a>
         </div>
-        <figure class="intro-real" data-reveal>
-          <img src="assets/mercedes-coupe-side.jpg" alt="Mercedes coupé negru după detailing, cu reflexii clare pe panoul lateral" width="1536" height="2048" loading="lazy" />
-          <figcaption><span>ATENȚIE PE SUPRAFAȚĂ</span><b>LUCIU CLAR.<br />FINISAJ PROTEJAT.</b></figcaption>
-        </figure>
       </section>
 
       <section class="services" id="servicii" aria-labelledby="services-title">
-        <div class="services-head section">
-          <div class="section-label" data-reveal><span>02</span><p>SERVICII</p></div>
-          <div data-reveal><h2 id="services-title">MAI MULT DECÂT<br /><em>O CURĂȚARE.</em></h2><p>Tratamentul potrivit pentru starea mașinii tale, de la întreținere atentă la corecție și protecție completă.</p></div>
-        </div>
-        <div class="service-list">
-          <article class="service service--image" data-reveal>
-            <img src="assets/bmw-x3-rear.jpg" alt="Finisaj lucios pe un BMW SUV după detailing exterior" width="1536" height="2048" loading="lazy" />
-            <div class="service-overlay"><span>01</span><h3>DETAILING<br />EXTERIOR</h3><p>Un exterior îngrijit corect, în etape.</p></div>
-          </article>
-          <article class="service" data-reveal>
-            <div class="service-number">02</div><h3>CORECTARE<br />LAC</h3><p>Corectăm aspectul vopselei prin polish, pentru reflexii clare și un finisaj uniform.</p><div class="service-line"></div><ul><li>Polish profesional</li><li>Împrospătare trimuri</li><li>Finisaj cu atenție la detalii</li></ul>
-          </article>
-          <article class="service service--lime" data-reveal>
-            <div class="service-number">03</div><h3>PROTECȚIE<br />CERAMICĂ</h3><p>Protecție pentru vopsea, geamuri și suprafețe care merită păstrate în forma lor bună.</p><a href="#contact" class="round-link" aria-label="Discută despre protecție ceramică">↗</a>
-          </article>
-          <article class="service" data-reveal>
-            <div class="service-number">04</div><h3>DETAILING<br />INTERIOR</h3><p>Habitaclu curat și împrospătat: fiecare material primește atenția potrivită.</p><div class="service-line"></div><ul><li>Curățare în profunzime</li><li>Textile și piele</li><li>Compartiment motor</li></ul>
-          </article>
+        <div class="services-head"><div class="section-kicker"><span>03</span><p>CE PUTEM ÎMBUNĂTĂȚI</p></div><h2 id="services-title">DETALIUL<br />FACE <em>DIFERENȚA.</em></h2></div>
+        <div class="services-list">
+          <article><span>01</span><h3>DETAILING<br />EXTERIOR</h3><p>Pregătire atentă, decontaminare, curățare jante și finisaj pentru o bază corectă.</p></article>
+          <article><span>02</span><h3>CORECTARE<br />LAC</h3><p>Polish adaptat stării vopselei, pentru claritate, profunzime și o reflexie uniformă.</p></article>
+          <article><span>03</span><h3>PROTECȚIE<br />CERAMICĂ</h3><p>Protecție pentru vopsea și geamuri, aleasă potrivit pentru mașina și rutina ta.</p></article>
+          <article><span>04</span><h3>DETAILING<br />INTERIOR</h3><p>Curățare în profunzime pentru textile, piele și fiecare zonă care contează la volan.</p></article>
         </div>
       </section>
 
-      <section class="process section" id="proces" aria-labelledby="process-title">
-        <div class="section-label" data-reveal><span>03</span><p>MOD DE LUCRU</p></div>
-        <div class="process-title" data-reveal><h2 id="process-title">CLAR. ATENT.<br /><em>FĂRĂ SCURTĂTURI.</em></h2><p>Nu promitem același lucru pentru fiecare mașină. Analizăm suprafețele, stabilim soluția și construim rezultatul în pași corecți.</p></div>
-        <ol class="process-steps">
-          <li data-reveal><span>01</span><div><b>ANALIZĂ</b><p>Vedem starea reală a mașinii și discutăm ce rezultat îți dorești.</p></div></li>
-          <li data-reveal><span>02</span><div><b>PLAN</b><p>Îți recomandăm tratamentul potrivit, fără servicii de care nu ai nevoie.</p></div></li>
-          <li data-reveal><span>03</span><div><b>EXECUȚIE</b><p>Lucrăm metodic, de la pregătire până la protecția finală.</p></div></li>
-          <li data-reveal><span>04</span><div><b>PREDARE</b><p>Primești o mașină care arată curat, corect și protejat.</p></div></li>
-        </ol>
+      <section class="method" id="metoda" aria-labelledby="method-title">
+        <div class="method-copy"><div class="section-kicker"><span>04</span><p>MODUL NOSTRU DE LUCRU</p></div><h2 id="method-title">NU SĂRIM<br />PESTE <em>ETAPE.</em></h2><p>Fiecare suprafață pornește cu o evaluare sinceră. Apoi stabilim tratamentul, pregătim atent mașina și verificăm rezultatul înainte de predare.</p><a class="button button--dark" href="tel:+40747401472">DISCUTĂM DESPRE MAȘINA TA <b>↗</b></a></div>
+        <ol class="method-steps"><li><span>01</span><b>ANALIZĂ</b><p>Vedem starea reală a mașinii.</p></li><li><span>02</span><b>PLAN</b><p>Recomandăm doar ce are sens.</p></li><li><span>03</span><b>EXECUȚIE</b><p>Lucrăm pe etape, fără compromis.</p></li><li><span>04</span><b>PREDARE</b><p>Verificăm fiecare detaliu final.</p></li></ol>
       </section>
 
-      <section class="statement" aria-label="Declarație Two Best Polish"><p data-reveal>FIECARE REFLEXIE<br />E O <em>SEMNĂTURĂ.</em></p></section>
-
-      <section class="contact section" id="contact" aria-labelledby="contact-title">
-        <div class="contact-main" data-reveal><div class="section-label"><span>04</span><p>PROGRAMARE</p></div><h2 id="contact-title">DĂ-I MAȘINII TALE<br /><em>CELE DOUĂ ȘANSE:</em></h2><p>Primul pas este o discuție. Spune-ne ce vrei să îmbunătățești, iar noi îți recomandăm punctul de pornire.</p><a href="tel:+40747401472" class="phone-link">0747 <span>401 472</span> <b>↗</b></a></div>
-        <div class="contact-side" data-reveal><img src="assets/two-best-polish-logo-v2.png?v=20260820-2" alt="" width="280" height="280" /><div><p>URMĂREȘTE-NE / GĂSEȘTE-NE</p><a href="https://www.instagram.com/tb.polish/" target="_blank" rel="noreferrer">INSTAGRAM <span>@tb.polish</span> ↗</a><a href="https://www.tiktok.com/@tbpolish" target="_blank" rel="noreferrer">TIKTOK <span>@tbpolish</span> ↗</a><a href="https://www.google.com/maps/search/?api=1&amp;query=Two+Best+Polish%2C+72H4%2BMF%2C+Bughea+de+Jos%2C+115100" target="_blank" rel="noreferrer">GOOGLE MAPS <span>72H4+MF, Bughea de Jos</span> ↗</a><a href="https://www.waze.com/ul?q=Two%20Best%20Polish%2C%2072H4%2BMF%2C%20Bughea%20de%20Jos%2C%20115100&amp;navigate=yes" target="_blank" rel="noreferrer">DESCHIDE ÎN WAZE <span>Navigație</span> ↗</a><a href="tel:+40747401472">TELEFON <span>0747 401 472</span> ↗</a></div></div>
-        <div class="contact-map" data-reveal>
-          <div class="contact-map__label"><span>LOCAȚIE</span><b>TWO BEST POLISH · BUGHEA DE JOS</b></div>
-          <iframe title="Harta locației Two Best Polish" src="https://www.google.com/maps?output=embed&amp;q=72H4%2BMF%2C%20Bughea%20de%20Jos%2C%20Romania" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
+      <section class="contact" id="contact" aria-labelledby="contact-title">
+        <div class="contact-title"><div class="section-kicker"><span>05</span><p>PROGRAMARE / LOCAȚIE</p></div><h2 id="contact-title">GATA PENTRU<br /><em>O A DOUA</em><br />PRIVIRE?</h2><p>Sună-ne sau trimite-ne un mesaj. Vedem ce are nevoie mașina ta și de unde începem.</p><a class="phone" href="tel:+40747401472">0747 <b>401 472</b> <em>↗</em></a></div>
+        <div class="contact-links"><img src="assets/two-best-polish-logo-v2.png?v=20260820-2" width="130" height="130" alt="" /><a href="https://www.instagram.com/tb.polish/" target="_blank" rel="noreferrer"><span>INSTAGRAM</span><b>@tb.polish ↗</b></a><a href="https://www.tiktok.com/@tbpolish" target="_blank" rel="noreferrer"><span>TIKTOK</span><b>@tbpolish ↗</b></a><a href="https://www.google.com/maps/search/?api=1&amp;query=Two+Best+Polish%2C+72H4%2BMF%2C+Bughea+de+Jos%2C+115100" target="_blank" rel="noreferrer"><span>GOOGLE MAPS</span><b>BUGHEA DE JOS ↗</b></a><a href="https://www.waze.com/ul?q=Two%20Best%20Polish%2C%2072H4%2BMF%2C%20Bughea%20de%20Jos%2C%20115100&amp;navigate=yes" target="_blank" rel="noreferrer"><span>WAZE</span><b>DESCHIDE NAVIGAȚIA ↗</b></a></div>
+        <div class="contact-map"><div class="map-label"><span>GĂSEȘTE-NE</span><b>TWO BEST POLISH · BUGHEA DE JOS</b></div><iframe title="Harta locației Two Best Polish" src="https://www.google.com/maps?output=embed&amp;q=72H4%2BMF%2C%20Bughea%20de%20Jos%2C%20Romania" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
       </section>
     </main>
 
-    <footer><a class="brand" href="#acasa"><img src="assets/two-best-polish-logo-v2.png?v=20260820-2" width="48" height="48" alt="" /><span><b>TWO BEST</b><i>POLISH</i></span></a><p>POLISH AUTO PROFESIONAL<br />DETAILING EXTERIOR · INTERIOR · CERAMICĂ</p><small>© <span data-year></span> TWO BEST POLISH · WEBSITE DE <a href="https://invilabs.ro/website" target="_blank" rel="noreferrer">INVILABS.RO</a></small></footer>
-    <script src="script.js?v=20260820-1"></script>
+    <footer><a class="brand" href="#acasa"><img src="assets/two-best-polish-logo-v2.png?v=20260820-2" width="48" height="48" alt="" /><span><b>TWO BEST</b><i>POLISH</i></span></a><p>POLISH AUTO PROFESIONAL<br />DETALII CARE SE VĂD.</p><small>© <span id="year"></span> TWO BEST POLISH · WEBSITE DE <a href="https://invilabs.ro/website" target="_blank" rel="noreferrer">INVILABS.RO</a></small></footer>
+    <script>
+      const toggle = document.querySelector('.nav-toggle');
+      const nav = document.querySelector('.site-nav');
+      toggle.addEventListener('click', () => { const open = nav.classList.toggle('is-open'); toggle.setAttribute('aria-expanded', open); });
+      nav.querySelectorAll('a').forEach((link) => link.addEventListener('click', () => { nav.classList.remove('is-open'); toggle.setAttribute('aria-expanded', 'false'); }));
+      document.querySelector('#year').textContent = new Date().getFullYear();
+    </script>
   </body>
 </html>

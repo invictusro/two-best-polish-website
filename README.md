@@ -9,4 +9,4 @@ Public contacts from the supplied studio banner:
 - TikTok: `@tbpolish`
 - Location: `72H4+MF, Bughea de Jos, 115100` (Google Maps and Waze links are included on the website)
 
-The website has a production-only `<base>` tag for the Coolify subpath and cache-busted CSS and JavaScript. `mercedes-coupe-front.jpg`, `mercedes-coupe-side.jpg`, and `bmw-x3-rear.jpg` are selected real photographs from the official Two Best Polish Facebook profile, captured for the website on 20 August 2026.
+The website has a production-only `<base>` tag for the Coolify subpath and cache-busted CSS and JavaScript. The image-led redesign uses six non-destructive editorial enhancements of real photographs selected from the official Two Best Polish Facebook profile on 20 August 2026. The optimized project assets are named `*-enhanced.jpg`; the original downloaded Facebook photographs remain untouched alongside them.

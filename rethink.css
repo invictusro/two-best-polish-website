@@ -138,6 +138,9 @@ h1 em, h2 em { color: #719d16; font-style: italic; }
 .map-label { position: absolute; z-index: 1; top: 0; left: 0; display: grid; gap: 3px; padding: 14px 17px; background: var(--lime); }
 .map-label span { font-size: 8px; letter-spacing: .08em; }
 .map-label b { font: 700 20px/.85 var(--display); letter-spacing: .03em; }
+.map-waze { position: absolute; z-index: 1; right: 17px; bottom: 17px; display: inline-flex; align-items: center; gap: 20px; min-height: 46px; padding: 12px 16px; color: var(--paper); background: var(--dark); box-shadow: 4px 4px 0 var(--lime); font-size: 9px; letter-spacing: .08em; transition: transform .2s ease, box-shadow .2s ease; }
+.map-waze:hover { transform: translate(-2px, -2px); box-shadow: 6px 6px 0 var(--lime); }
+.map-waze b { color: var(--lime); font-size: 16px; }
 
 footer { display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; gap: 30px; padding: 40px 5.6vw; border-top: 1px solid var(--line); font-size: 9px; line-height: 1.75; }
 footer p { margin: 0; text-align: center; }
@@ -220,6 +223,7 @@ footer small a { color: #638b11; }
   .contact-map { height: 290px; margin-top: -8px; }
   .map-label { padding: 11px 13px; }
   .map-label b { font-size: 16px; }
+  .map-waze { right: 12px; bottom: 12px; min-height: 42px; padding: 10px 12px; }
   footer { grid-template-columns: 1fr; gap: 22px; padding: 32px 6vw; }
   footer p, footer small { text-align: left; }
 }

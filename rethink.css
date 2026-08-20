@@ -42,7 +42,7 @@ button { font: inherit; }
 .overline span { width: 36px; height: 2px; background: var(--lime); }
 h1, h2, h3, p { margin-top: 0; }
 h1, h2, h3 { font-family: var(--display); text-transform: uppercase; }
-h1 { max-width: 730px; margin: 20px 0 23px; font-size: clamp(76px, 9.8vw, 160px); font-weight: 800; line-height: .76; letter-spacing: -.045em; }
+h1 { max-width: 730px; margin: 20px 0 23px; font-size: clamp(72px, 7.2vw, 118px); font-weight: 800; line-height: .76; letter-spacing: -.045em; }
 h1 em, h2 em { color: #719d16; font-style: italic; }
 .hero-text { max-width: 355px; margin-bottom: 29px; color: #52554d; font-size: 12px; line-height: 1.75; }
 .hero-actions { display: flex; align-items: center; gap: 25px; }

@@ -8,4 +8,4 @@ Public contacts from the supplied studio banner:
 - Instagram: `@tb.polish`
 - TikTok: `@tbpolish`
 
-The website has a production-only `<base>` tag for the Coolify subpath and cache-busted CSS and JavaScript. The original workshop photo is retained in `assets/workshop.jpg`; `hero-black-coupe.png` and `polish-detail.png` are generated supporting imagery in the same graphite/lime visual direction.
+The website has a production-only `<base>` tag for the Coolify subpath and cache-busted CSS and JavaScript. `hero-black-coupe.png` and `polish-detail.png` are generated supporting imagery in the graphite/lime visual direction.

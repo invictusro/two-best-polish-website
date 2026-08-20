@@ -13,4 +13,4 @@ An acid-lime calibration mark moves through a graphite workshop. The site feels 
 
 ## Structure
 
-The page moves from visual promise to studio proof, the four service paths, the working method and a direct booking finish. The supplied workshop image provides authentic proof; generated images remain visually unified with its dark/lime brand world.
+The page moves from visual promise to the four service paths, the working method and a direct booking finish. Generated images remain visually unified with the dark/lime brand world.
